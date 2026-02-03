@@ -1,0 +1,18 @@
+{
+  "config": {
+    "dict_size": 12288,
+    "steps": 30000,
+    "batch_size": 64,
+    "l1_penalty": 0.0005,
+    "activation_dim": 768,
+    "lr": 0.001,
+    "warmup_steps": 1000,
+    "save_every": 5000
+  },
+  "n_patches": 5000,
+  "reconstruction_corr": 0.9885681013115668,
+  "reconstruction_mse": 0.06784241646528244,
+  "mean_l0": 83.837,
+  "active_features": 1363,
+  "dead_features": 10925
+}
